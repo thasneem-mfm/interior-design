@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #fff8e1; 
+  color:#fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h2{
+    margin-left: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  position: relative;
+  margin-right: 50px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+/* 🔸 All nav links & dropdown toggle in orange */
+.nav-links a,
+.dropdown-toggle {
+  color: #FFA500; /* orange */
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* 🔸 Hover effect - turns white */
+.nav-links a:hover,
+.dropdown-toggle:hover {
+  color: #fff;
+}
+
+/* 🔽 Dropdown menu styles */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+/* 🔸 Dropdown menu hover effect */
+.dropdown-menu li:hover {
+  background-color: #444;
+}
+
+.dropdown-menu li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
