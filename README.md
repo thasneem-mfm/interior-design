@@ -1,6 +1,6 @@
 # Interior Design
 
-A modern and responsive **Interior Design and Home Decor E-Commerce Frontend** built with **React.js**. This project provides users with an interactive platform to explore interior design collections, browse different room categories, view design details, explore services, and manage selected products through a shopping cart.
+A modern and responsive **Interior Design Frontend** built with **React.js**. This project provides users with an interactive platform to explore interior design collections, browse different room categories, view design details, explore services, and manage selected products through a shopping cart.
 
 ## 🌐 Project Overview
 
